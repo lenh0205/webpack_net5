@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebpackMVC", "WebpackMVC\We
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12C93419-F490-4F95-9835-69541E630761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebpackDevServer", "MvcWebpackDevServer\MvcWebpackDevServer.csproj", "{D9A2343D-98CC-4470-AA39-B109CEB14E00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{912D404E-B057-49C5-A3CE-E522A0416FCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912D404E-B057-49C5-A3CE-E522A0416FCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{912D404E-B057-49C5-A3CE-E522A0416FCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A2343D-98CC-4470-AA39-B109CEB14E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A2343D-98CC-4470-AA39-B109CEB14E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A2343D-98CC-4470-AA39-B109CEB14E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A2343D-98CC-4470-AA39-B109CEB14E00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

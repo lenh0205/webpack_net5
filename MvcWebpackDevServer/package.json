@@ -1,0 +1,16 @@
+{
+  "name": "mvcwebpackdevserver",
+  "version": "1.0.0",
+  "description": "> create a framework-neutral setup with an experience independent of ASP.NET version\r > using webpack4, ASP.NET MVC 5, webpack-dev-server, Hot Module Replacement (HMR)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
