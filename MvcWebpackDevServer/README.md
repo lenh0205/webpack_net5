@@ -1,4 +1,4 @@
-> create a framework-neutral setup with an experience independent of ASP.NET version
+﻿> create a framework-neutral setup with an experience independent of ASP.NET version
 > using webpack4, ASP.NET MVC 5, webpack-dev-server, Hot Module Replacement (HMR)
 
 ======================================================================================
@@ -21,8 +21,9 @@ module.exports = {
 ```
 
 # Reference webpack's output in ASP.NET
-* -> to reference webpack's output in ASP.NET, install Node package **razor-partial-views-webpack-plugin** 
+* -> to **`reference webpack's output in ASP.NET`**, install Node package **razor-partial-views-webpack-plugin** 
 * -> this plugin **`extends webpack's build`** with capability to **generate Razor views from webpack assets**
+
 ```js - webpack.config.js
 const RazorPartialViewsWebpackPlugin = require("razor-partial-views-webpack-plugin");
 
@@ -77,7 +78,7 @@ module.exports = {
 ```
 
 * _update webpack.config.js to **`include devServer`** and **signal that assets no longer are served from `./dist` folder**_
-* __this configuration also function as **scaffolding for partial views used in ASP.NET**_
+* _this configuration also function as **scaffolding for partial views used in ASP.NET**_
 ```js - webpack.config.js
 output: {
   // assets served by webpack-dev-server
